@@ -1,0 +1,119 @@
+init:{
+    width=32
+    height=32
+    macro:A,NULL
+    macro:B,MOSS_STONE
+    macro:C,WOOD_WALL_HORISONTAL
+    macro:D,LADDER_CENTER
+    macro:E,STONE_STAIR_LEFT
+    macro:F,STAIR_BASE_CARPET
+    macro:G,STAIR_LEFT
+    macro:H,WOOD_WALL_VERTICAL
+    macro:I,STONE_STAIR_RIGHT
+    macro:J,MOLDING
+}
+
+background:{
+    A,A,A,A,A,A,A,A,A,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A,A
+    F,F,F,F,F,F,F,F,F,F,F,F,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+    A,A,A,A,A,A,A,A,A,A,A,B,H,H,H,H,H,H,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,H,H,H,H,H,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,B,H,H,H,H,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,H,H,H,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,H,H,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,H,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,C,C,A
+    A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,C,C,C,C,C,C,C,C,C,C,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A
+    H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,H,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,C,C,C,C,C,C,C,C,C,C,C,C,H,H,C,H,H,C,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,H,C,C,C,H,H,H,H,H,H,H,H,H,H,H,H,H,H,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,H,C,H,H,C,H,H,H,H,H,H,H,H,H,H,H,H,H,A,A,A,A,A,A,A,A,A,A,A,A,A
+    C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,F,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+}
+
+foreground:{
+    B,B,B,B,B,B,B,B,B,D,D,B,B,B,B,B,B,B,B,B,B,E,A,A,A,A,A,A,A,A,A,A
+    B,B,B,B,B,B,C,A,A,D,D,A,A,A,A,A,A,A,B,B,B,B,B,B,E,A,A,A,A,A,A,A
+    B,B,B,B,B,B,C,A,A,D,D,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,E,A,A,A,A
+    B,B,B,B,B,B,C,A,A,D,D,A,A,A,A,A,A,A,B,B,B,B,B,B,B,B,B,B,B,B,B,E
+    B,B,B,B,B,B,A,A,F,F,F,G,F,F,F,F,F,F,A,B,B,A,A,A,A,A,A,A,A,A,A,A
+    B,B,B,B,B,B,B,B,B,B,B,A,E,A,A,A,A,A,A,A,A,A,C,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,E,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,A,E,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,E,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,E,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,E,A,A,A,A,A,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,E,A,A,A,A,A,A,A,A,A,A,A,A,B
+    B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,B,E,A,A,A,A,A,A,A,A,I,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B
+    B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,C,C,C,A,C,C,C,C,C,C,C,C,C,C,A,A,A,C,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,A,A,A,A,A,A,A,A,A,A,A,A,C,C,C,C,C,A,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,C,A,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,A,D,A,A,A,A,C,C,C,A,A,A,A,A,A,A,A,C,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,C,D,C,A,A,C,C,C,C,C,C,C,C,C,C,C,C,C,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,J,D,J,J,J,J,J,J,J,J,J,J,J,J,J,J,J,J,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A
+    B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,B,A,A,A,A,A,A,A,A,A,A,A,A
+}
+
+collisions:{
+    5t,0t,1t,4t
+    11t,0t,12t,1t
+    19t,12t,1t,1t
+    30t,12t,1t,1t
+    31t,4t,1t,12t
+    19t,13t,12t,1t
+    5t,4t,6t,1t
+    6t,0t,3t,1t
+    0t,26t,32t,1t
+    19t,20t,1t,6t
+    0t,20t,1t,6t
+    3t,23t,2t,1t
+}
+
+entities:{
+    BOOK_SHELF{448,160,true}
+    BOOK_SHELF{1088,160,false}
+    DOOR{672,1536,true,id:0.4867454493627329}
+    BARREL{960,192,test2}
+    BARREL{384,1600,test1}
+    BOOK_SHELF{256,1568,true}
+    WARP{639,32,1,1,,true,0,24,false,a}
+    WARP{672,1312,1,1,,true,0,-17,true,warp1}
+    BED{1024,1600,}
+    WINDOW{1024,1440,}
+    FLOOR_LANTERN{896,1728,0,0,255,id:0.6352441773163877}
+    FLOOR_LAMP{576,1728,0,0,255,id:0.5886125237382119}
+    SPAWN_POINT{817,1591,}
+    WIRE{id:0.4867454493627329,1,warp1,0}
+    CHEST{256,1427,false}null;BERRY{1};BERRY{12};BERRY{123413234};KEY{1};BERRY{1};BERRY{1};BERRY{1};
+    CHEST{502,209,false}null;PAPER{Cherish is the cutest,true,19,1};PENGUIN{1};
+}
+

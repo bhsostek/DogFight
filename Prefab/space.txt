@@ -1,0 +1,14 @@
+width=1
+height=1
+lifespan=60
+maxParticles=20000
+rangeXb=-0.5
+rangeXt=0.5
+rangeYb=-1.5
+rangeYt=-1.0
+useGravity=false
+collisionTest=false
+pileUp=false
+canAdd=true
+sprite=torch.png
+rotationConstant0.0

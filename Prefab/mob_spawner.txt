@@ -1,0 +1,14 @@
+width=16
+height=16
+lifespan=300
+maxParticles=45
+rangeXb=-6.0
+rangeXt=6.0
+rangeYb=-6.0
+rangeYt=6.0
+useGravity=false
+collisionTest=true
+pileUp=true
+canAdd=true
+rotationConstant=5
+sprite=smoke.png

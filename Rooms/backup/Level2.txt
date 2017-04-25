@@ -1,0 +1,45 @@
+init:{
+    width=12
+    height=8
+    macro:A,MOSS_STONE
+    macro:B,NULL
+    macro:C,MOLDING
+    macro:D,STAIR_BASE_CARPET
+    macro:E,STAIR_BASE
+}
+
+background:{
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A
+}
+
+foreground:{
+    B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B,B,B,B,B
+    C,C,C,C,C,C,C,C,C,C,C,C
+    D,D,D,D,D,D,D,D,D,D,D,D
+    E,E,E,E,E,E,E,E,E,E,E,E
+}
+
+collisions:{
+    0t,6t,12t,1t
+    -1t,0t,1t,8t
+    12t,0t,1t,8t
+}
+
+entities:{
+    DOOR{608,256,false,id:0.7896789179979472}
+    PEDESTAL{420,342,id:0.25084852174953687}
+	WIRE{id:0.25084852174953687,0,id:0.7896789179979472,0}
+    SPAWN_POINT{120,298,}
+}
+

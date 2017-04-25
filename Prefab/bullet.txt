@@ -1,0 +1,6 @@
+rangeXb=-2
+rangeXt=2
+rangeYb=-2
+rangeYt=2
+sprite=default.png
+lifespan=15

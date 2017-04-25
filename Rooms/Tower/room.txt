@@ -1,0 +1,79 @@
+init:{
+    width=64
+    height=16
+    macro:A,NULL
+    macro:B,WOOD_WALL_VERTICAL
+    macro:C,STAIR_BASE_CARPET
+    macro:D,STONE_STAIR_RIGHT
+    macro:E,MOSS_STONE
+    macro:F,STAIR_LEFT
+    macro:G,STAIR_BASE
+    macro:H,MOLDING
+}
+
+background:{
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,A,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,E,E,E,E,E,E,E,E,E,E,A,B,B,B,B,B,B,B,B,B,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+}
+
+foreground:{
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,A,A,A,A,D,E,C,C,C,C,C,C,C,C,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,E,E,E,E,E,E,E,E,E,E,E,B,B,B,B,B,B,B,B,B,B,A,A,A,A,D,E,E,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,A,A,A,A,A,A,A,A,E,E,E,B,B,B,B,B,B,B,B,B,B,A,A,A,D,E,E,E,G,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,A,A,A,A,A,A,A,A,E,E,E,B,B,B,B,B,B,B,B,A,A,A,A,D,E,E,E,E,A,G,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,A,A,A,A,A,A,A,A,E,E,E,B,B,B,B,B,B,B,B,A,A,A,D,E,E,E,E,E,G,G,G,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,A,A,A,A,A,A,A,A,E,E,E,B,B,B,B,B,B,A,A,A,A,D,E,E,E,E,E,E,G,G,G,G,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    E,E,A,A,A,A,A,A,A,A,E,A,E,B,B,B,B,B,B,A,A,A,D,E,E,E,E,E,E,E,G,G,G,G,G,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    H,H,H,H,H,H,H,H,H,H,H,H,E,H,H,H,H,H,H,H,H,D,E,E,E,E,E,E,E,E,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,F,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C,C
+    G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G
+    G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G
+    G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G
+    G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G,G
+}
+
+collisions:{
+    29t,3t,9t,1t
+    0t,11t,64t,1t
+    8t,3t,16t,1t
+    9t,-5t,1t,16t
+}
+
+entities:{
+    DOOR{736.0,576.0,false,id:0.04930345324225471}
+    FLOOR_LAMP{960.0,768.0,128,0,255,id:0.3468983994044801}
+    FLOOR_LAMP{1256.0,772.0,0,0,0,id:0.96830422388074}
+    WARP{2144.0,-32.0,1,1,,false,0,0,false,a}
+    SPAWN_POINT{1113.0,90.0,}
+    TELEPORTER{740.0,123.0,id:0.4852860465716752}
+    LIGHT{887.0,34.0,128,52,100,220,id:0.9358173738321315}
+    LIGHT{979.0,348.0,128,79,128,107,id:0.4456941482604736}
+    LIGHT{695.0,342.0,128,61,173,190,id:0.5186861824441816}
+    LIGHT{1196.0,359.0,128,185,74,157,id:0.3223568260168187}
+    LIGHT{1106.0,239.0,128,252,152,72,id:0.47485103503173465}
+    LIGHT{1024.0,585.0,128,45,80,22,id:0.2499924195539961}
+    LIGHT{860.0,471.0,128,130,145,98,id:0.3262861389088033}
+    CHEST{1414.0,143.0,false}/Tower/saves/chest1.txt
+    CHEST{1631.0,129.0,false}Tower/saves/chest2.txt
+    CHEST{1431.0,361.0,false}Tower/saves/butter.txt
+    BARREL{1360.0,487.0}Tower/saves/null;.txt
+    SCRIPT{test.js}
+}
+

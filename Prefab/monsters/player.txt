@@ -1,0 +1,4 @@
+HIT_BOX{19,32,weapons}
+GRAVITY{0.4}
+SPRITE{player/left.png}
+HEALTH{10}

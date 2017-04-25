@@ -1,0 +1,40 @@
+init:{
+    width=8
+    height=6
+    macro:A,MOSS_STONE
+    macro:B,NULL
+    macro:C,MOLDING
+    macro:D,STAIR_BASE_CARPET
+}
+
+background:{
+    A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A
+}
+
+foreground:{
+    B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B
+    B,B,B,B,B,B,B,B
+    C,C,C,C,C,C,C,C
+    D,D,D,D,D,D,D,D
+}
+
+collisions:{
+    0t,5t,8t,1t
+    8t,0t,1t,6t
+    -1t,0t,1t,6t
+}
+
+entities:{
+    DOOR{352,192,true,id:0.02838104714911549}
+    TORCH{256,128,id:0.470565942527734}
+    TORCH{448,128,id:0.39654489836668927}
+    SPAWN_POINT{106,233,}
+}
+

@@ -1,0 +1,64 @@
+init:{
+    width=16
+    height=16
+    macro:A,NULL
+    macro:B,STAIR_BASE_CARPET
+    macro:C,LADDER_LEFT
+    macro:D,STAIR_BASE
+    macro:E,STONE_STAIR_RIGHT
+    macro:F,MOSS_STONE
+}
+
+background:{
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+}
+
+foreground:{
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    B,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    D,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    D,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    D,C,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    D,C,A,A,A,A,A,A,A,A,A,A,A,A,E,F
+    D,C,A,A,A,A,A,A,A,A,A,A,A,E,F,F
+    D,C,A,A,A,A,A,A,A,A,A,A,E,F,F,F
+    D,C,A,A,A,A,A,A,A,A,A,E,F,F,F,F
+    F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+    A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A
+}
+
+collisions:{
+    15t,6t,1t,1t
+    0t,10t,16t,1t
+    0t,2t,1t,6t
+    0t,8t,1t,2t
+    3t,3t,3t,1t
+}
+
+entities:{
+    TORCH{165,317,id:0.7316662269340636}
+    TORCH{411,445,id:0.831265465833524}
+    CHEST{38,87,false}chest5
+    SPAWN_POINT{980,338,}
+}
+

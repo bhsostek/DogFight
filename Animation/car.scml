@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r10" pixel_mode="1">
+    <folder id="0">
+        <file id="0" name="car.png" width="110" height="40" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="501">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="798">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="car">
+                <key id="0">
+                    <object folder="0" file="0" x="-2" y="20"/>
+                </key>
+                <key id="1" time="501" spin="-1">
+                    <object folder="0" file="0" x="-3" y="23" angle="5.748287" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="2" time="798">
+                    <object folder="0" file="0" x="-2" y="36" angle="343.521265" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

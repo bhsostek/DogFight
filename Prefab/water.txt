@@ -1,0 +1,6 @@
+rangeXb=0
+rangeXt=0
+rangeYb=0
+rangeYt=0
+sprite=water.png
+lifespan=300

@@ -1,0 +1,13 @@
+width=1
+height=1
+lifespan=150
+maxParticles=4000
+rangeXb=-12.0
+rangeXt=12.0
+rangeYb=-12.0
+rangeYt=12.0
+useGravity=true
+collisionTest=true
+pileUp=true
+canAdd=true
+sprite=star.png

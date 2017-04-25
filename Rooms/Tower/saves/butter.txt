@@ -1,0 +1,5 @@
+BERRY{},1
+PAPER{elevator_test},1
+KEY{},1
+BERRY{},4
+PETUNIA{},1

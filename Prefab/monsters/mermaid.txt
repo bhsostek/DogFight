@@ -1,0 +1,5 @@
+HIT_BOX{24,32,weapons}
+GRAVITY{0.4}
+FOLLOW{8,1.25}
+SPRITE{mermaid/mermaid.png}
+HEALTH{15}

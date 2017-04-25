@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r10">
+    <folder id="0" name="entity/mob">
+        <file id="0" name="entity/mob/crab.png" width="20" height="15" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="499">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="933">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="crab">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" y="7.5"/>
+                </key>
+                <key id="1" time="250" spin="-1">
+                    <object folder="0" file="0" x="-30.555556" y="26.32716" angle="314.061"/>
+                </key>
+                <key id="2" time="499" spin="-1">
+                    <object folder="0" file="0" x="0.946914" y="50.138272" angle="194.036"/>
+                </key>
+                <key id="3" time="750" spin="-1">
+                    <object folder="0" file="0" x="31.398438" y="25.690163" angle="46.169"/>
+                </key>
+                <key id="4" time="933" spin="-1">
+                    <object folder="0" file="0" x="9.032065" y="8.609532" angle="8.746"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

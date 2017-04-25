@@ -1,0 +1,5 @@
+HIT_BOX{20,15,player}
+GRAVITY{0.4}
+FOLLOW{20,0.25}
+SPRITE{crab.png}
+HEALTH{5}

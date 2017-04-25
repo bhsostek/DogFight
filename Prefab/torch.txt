@@ -1,0 +1,6 @@
+rangeXb=-0.5
+rangeXt=0.5
+rangeYb=-1.5
+rangeYt=-1
+sprite=torch.png
+lifespan=60

@@ -1,0 +1,5 @@
+HIT_BOX{96,29,weapons}
+GRAVITY{0.4}
+SPRITE{pterodactyl/pterodactyl.png}
+HEALTH{300}
+CONTROLLER{1}

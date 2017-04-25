@@ -1,0 +1,13 @@
+width=1
+height=1
+lifespan=300
+maxParticles=20
+rangeXb=-0.5
+rangeXt=0.5
+rangeYb=-1.5
+rangeYt=-1.0
+useGravity=true
+collisionTest=true
+pileUp=true
+canAdd=true
+sprite=water.png

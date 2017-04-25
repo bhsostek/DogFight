@@ -1,0 +1,6 @@
+BERRY{},2
+GUN{},1
+null
+null
+null
+PAPER{water_temple},1

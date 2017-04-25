@@ -1,0 +1,19 @@
+init:{
+    width=0
+    height=0
+}
+
+background:{
+}
+
+foreground:{
+}
+
+collisions:{
+    0t,12t,32t,1t
+}
+
+entities:{
+    LIGHT{960.0,320.0,3000,255,255,255,id:0.7903543631373612}
+}
+
